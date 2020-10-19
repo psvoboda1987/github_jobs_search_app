@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub jobs</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="../../favicon.png" type="image/x-icon">
+</head>
+
+<body class="container">
+
+    <h1 class="h2">Github Jobs</h1>
+
+    <form id="app" class="maw-400 p-20 text-center">
+        <div>
+            <label>Description</label>
+            <input type="text" id="description" required>
+        </div>
+        <div>
+            <label>Location</label>
+            <input type="text" id="location">
+        </div>
+        <p>
+            <input type="checkbox" id="full_time" class="d-inline">
+            <span class="ml-20">Full time</span>
+        </p>
+        <div>
+            <button id="search" class="bg-steel white">Search</button>
+        </div>
+        <hr>
+    </form>
+
+    <div id="jobs"></div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
